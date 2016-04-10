@@ -356,14 +356,14 @@ img {
   #main .about dd q {
     font: 21px/31px "titillium_regular", Arial, Helvetica, sans-serif;
     font-style: italic; }
-  #main .about cite {
+  #main .about footer {
     list-style: none inside; }
-    #main .about cite a {
+    #main .about footer a {
       font: 24px/24px "titillium_bold", Arial, Helvetica, sans-serif;
       text-decoration: none;
       color: #fff;
       text-transform: uppercase; }
-      #main .about cite a:hover {
+      #main .about footer a:hover {
         text-decoration: underline; }
   #main .about .occupation {
     color: #facd96;
