@@ -159,45 +159,41 @@ img {
       color: #30bae7; }
 
 #main .animationStart:before {
-  -webkit-animation: progressBarSpinBeforeFirst 2s ease forwards;
-          animation: progressBarSpinBeforeFirst 2s ease forwards;
+  animation: progressBarSpinBeforeFirst 2s ease forwards;
   -webkit-transform-origin: right center;
+  -moz-transform-origin: right center;
   -ms-transform-origin: right center;
+  -o-transform-origin: right center;
   transform-origin: right center; }
 
 #main .animationStart:after {
-  -webkit-animation: progressBarSpinAfterFirst 0ms step-end 620ms forwards;
-          animation: progressBarSpinAfterFirst 0ms step-end 620ms forwards;
+  animation: progressBarSpinAfterFirst 0ms step-end 620ms forwards;
   -webkit-transform-origin: right center;
+  -moz-transform-origin: right center;
   -ms-transform-origin: right center;
+  -o-transform-origin: right center;
   transform-origin: right center; }
 
 #main .animationStart.second:before {
   background: #d74680;
-  -webkit-animation: progressBarSpinBeforeSecond 2s ease forwards;
-          animation: progressBarSpinBeforeSecond 2s ease forwards; }
+  animation: progressBarSpinBeforeSecond 2s ease forwards; }
 
 #main .animationStart.second:after {
-  -webkit-animation: progressBarSpinAfterSecond 0ms step-end 770ms forwards;
-          animation: progressBarSpinAfterSecond 0ms step-end 770ms forwards; }
+  animation: progressBarSpinAfterSecond 0ms step-end 770ms forwards; }
 
 #main .animationStart.third:before {
   background: #15c7a8;
-  -webkit-animation: progressBarSpinBeforeThird 2s ease forwards;
-          animation: progressBarSpinBeforeThird 2s ease forwards; }
+  animation: progressBarSpinBeforeThird 2s ease forwards; }
 
 #main .animationStart.third:after {
-  -webkit-animation: progressBarSpinAfterThird 0ms step-end 820ms forwards;
-          animation: progressBarSpinAfterThird 0ms step-end 820ms forwards; }
+  animation: progressBarSpinAfterThird 0ms step-end 820ms forwards; }
 
 #main .animationStart.fourth:before {
   background: #eb7d4b;
-  -webkit-animation: progressBarSpinBeforeFourth 2s ease forwards;
-          animation: progressBarSpinBeforeFourth 2s ease forwards; }
+  animation: progressBarSpinBeforeFourth 2s ease forwards; }
 
 #main .animationStart.fourth:after {
-  -webkit-animation: progressBarSpinAfterFourth 0ms step-end 670ms forwards;
-          animation: progressBarSpinAfterFourth 0ms step-end 670ms forwards; }
+  animation: progressBarSpinAfterFourth 0ms step-end 670ms forwards; }
 
 #main .circleProgressBar {
   width: 160px;
@@ -459,171 +455,120 @@ img {
     #footer a:hover {
       color: #30bae7; }
 
-@-webkit-keyframes progressBarSpinBeforeFirst {
-  from {
-    -webkit-transform: rotate(0deg);
-    -ms-transform: rotate(0deg);
-    transform: rotate(0deg); }
-  to {
-    -webkit-transform: rotate(324deg);
-    -ms-transform: rotate(324deg);
-    transform: rotate(324deg); } }
-
 @keyframes progressBarSpinBeforeFirst {
   from {
     -webkit-transform: rotate(0deg);
+    -moz-transform: rotate(0deg);
     -ms-transform: rotate(0deg);
+    -o-transform: rotate(0deg);
     transform: rotate(0deg); }
   to {
     -webkit-transform: rotate(324deg);
+    -moz-transform: rotate(324deg);
     -ms-transform: rotate(324deg);
+    -o-transform: rotate(324deg);
     transform: rotate(324deg); } }
-
-@-webkit-keyframes progressBarSpinBeforeSecond {
-  from {
-    -webkit-transform: rotate(0deg);
-    -ms-transform: rotate(0deg);
-    transform: rotate(0deg); }
-  to {
-    -webkit-transform: rotate(270deg);
-    -ms-transform: rotate(270deg);
-    transform: rotate(270deg); } }
 
 @keyframes progressBarSpinBeforeSecond {
   from {
     -webkit-transform: rotate(0deg);
+    -moz-transform: rotate(0deg);
     -ms-transform: rotate(0deg);
+    -o-transform: rotate(0deg);
     transform: rotate(0deg); }
   to {
     -webkit-transform: rotate(270deg);
+    -moz-transform: rotate(270deg);
     -ms-transform: rotate(270deg);
+    -o-transform: rotate(270deg);
     transform: rotate(270deg); } }
-
-@-webkit-keyframes progressBarSpinBeforeThird {
-  from {
-    -webkit-transform: rotate(0deg);
-    -ms-transform: rotate(0deg);
-    transform: rotate(0deg); }
-  to {
-    -webkit-transform: rotate(252deg);
-    -ms-transform: rotate(252deg);
-    transform: rotate(252deg); } }
 
 @keyframes progressBarSpinBeforeThird {
   from {
     -webkit-transform: rotate(0deg);
+    -moz-transform: rotate(0deg);
     -ms-transform: rotate(0deg);
+    -o-transform: rotate(0deg);
     transform: rotate(0deg); }
   to {
     -webkit-transform: rotate(252deg);
+    -moz-transform: rotate(252deg);
     -ms-transform: rotate(252deg);
+    -o-transform: rotate(252deg);
     transform: rotate(252deg); } }
-
-@-webkit-keyframes progressBarSpinBeforeFourth {
-  from {
-    -webkit-transform: rotate(0deg);
-    -ms-transform: rotate(0deg);
-    transform: rotate(0deg); }
-  to {
-    -webkit-transform: rotate(306deg);
-    -ms-transform: rotate(306deg);
-    transform: rotate(306deg); } }
 
 @keyframes progressBarSpinBeforeFourth {
   from {
     -webkit-transform: rotate(0deg);
+    -moz-transform: rotate(0deg);
     -ms-transform: rotate(0deg);
+    -o-transform: rotate(0deg);
     transform: rotate(0deg); }
   to {
     -webkit-transform: rotate(306deg);
+    -moz-transform: rotate(306deg);
     -ms-transform: rotate(306deg);
+    -o-transform: rotate(306deg);
     transform: rotate(306deg); } }
 
 /* if less then 50% - dont use "after" animation */
-@-webkit-keyframes progressBarSpinAfterFirst {
-  from {
-    -webkit-transform: rotate(0deg);
-    -ms-transform: rotate(0deg);
-    transform: rotate(0deg); }
-  to {
-    -webkit-transform: rotate(180deg);
-    -ms-transform: rotate(180deg);
-    transform: rotate(180deg);
-    background: #30bae7; } }
 @keyframes progressBarSpinAfterFirst {
   from {
     -webkit-transform: rotate(0deg);
+    -moz-transform: rotate(0deg);
     -ms-transform: rotate(0deg);
+    -o-transform: rotate(0deg);
     transform: rotate(0deg); }
   to {
     -webkit-transform: rotate(180deg);
+    -moz-transform: rotate(180deg);
     -ms-transform: rotate(180deg);
+    -o-transform: rotate(180deg);
     transform: rotate(180deg);
     background: #30bae7; } }
-
-@-webkit-keyframes progressBarSpinAfterSecond {
-  from {
-    -webkit-transform: rotate(0deg);
-    -ms-transform: rotate(0deg);
-    transform: rotate(0deg); }
-  to {
-    -webkit-transform: rotate(180deg);
-    -ms-transform: rotate(180deg);
-    transform: rotate(180deg);
-    background: #d74680; } }
 
 @keyframes progressBarSpinAfterSecond {
   from {
     -webkit-transform: rotate(0deg);
+    -moz-transform: rotate(0deg);
     -ms-transform: rotate(0deg);
+    -o-transform: rotate(0deg);
     transform: rotate(0deg); }
   to {
     -webkit-transform: rotate(180deg);
+    -moz-transform: rotate(180deg);
     -ms-transform: rotate(180deg);
+    -o-transform: rotate(180deg);
     transform: rotate(180deg);
     background: #d74680; } }
-
-@-webkit-keyframes progressBarSpinAfterThird {
-  from {
-    -webkit-transform: rotate(0deg);
-    -ms-transform: rotate(0deg);
-    transform: rotate(0deg); }
-  to {
-    -webkit-transform: rotate(180deg);
-    -ms-transform: rotate(180deg);
-    transform: rotate(180deg);
-    background: #15c7a8; } }
 
 @keyframes progressBarSpinAfterThird {
   from {
     -webkit-transform: rotate(0deg);
+    -moz-transform: rotate(0deg);
     -ms-transform: rotate(0deg);
+    -o-transform: rotate(0deg);
     transform: rotate(0deg); }
   to {
     -webkit-transform: rotate(180deg);
+    -moz-transform: rotate(180deg);
     -ms-transform: rotate(180deg);
+    -o-transform: rotate(180deg);
     transform: rotate(180deg);
     background: #15c7a8; } }
-
-@-webkit-keyframes progressBarSpinAfterFourth {
-  from {
-    -webkit-transform: rotate(0deg);
-    -ms-transform: rotate(0deg);
-    transform: rotate(0deg); }
-  to {
-    -webkit-transform: rotate(180deg);
-    -ms-transform: rotate(180deg);
-    transform: rotate(180deg);
-    background: #eb7d4b; } }
 
 @keyframes progressBarSpinAfterFourth {
   from {
     -webkit-transform: rotate(0deg);
+    -moz-transform: rotate(0deg);
     -ms-transform: rotate(0deg);
+    -o-transform: rotate(0deg);
     transform: rotate(0deg); }
   to {
     -webkit-transform: rotate(180deg);
+    -moz-transform: rotate(180deg);
     -ms-transform: rotate(180deg);
+    -o-transform: rotate(180deg);
     transform: rotate(180deg);
     background: #eb7d4b; } }
 
@@ -686,4 +631,3 @@ img {
     padding-left: 39px; }
     #main .about > div:nth-child(2n) blockquote {
       padding: 3px 0 0 48px; } }
-/*# sourceMappingURL=main.css.map */
